@@ -195,6 +195,9 @@ body {
 }
 
 @media(max-width: 815px) {
+  body{
+    background-color: blue;
+  }
   .grid-item {
     flex-basis: 50%;
   }

@@ -3,6 +3,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr 9fr 3fr 1fr;
+
   /* background-color: rgb(33, 243, 173); */
   /* padding: 10px; */
 }
