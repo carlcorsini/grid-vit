@@ -1,13 +1,37 @@
 /* Basic Grid */
 
-/* .grid-container {
+.grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: rgb(33, 243, 173);
-  padding: 10px;
-} */
+  grid-template-columns: 1fr 2fr 9fr 3fr 1fr;
+  /* background-color: rgb(33, 243, 173); */
+  /* padding: 10px; */
+}
 
-.grid-item {
+.col-1 {
+  /* background-color: rgba(129, 148, 211, 0.849); */
+  /* border: 2px solid rgba(240, 240, 240, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.col-2 {
+  background-color: rgba(129, 148, 211, 0.849);
+  border: 2px solid rgba(240, 240, 240, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.col-3 {
+  background-color: rgba(129, 148, 211, 0.849);
+  border: 2px solid rgba(240, 240, 240, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.col-9 {
   background-color: rgba(129, 148, 211, 0.849);
   border: 2px solid rgba(240, 240, 240, 0.8);
   padding: 20px;
@@ -23,7 +47,7 @@
   text-align: center;
 }
 
-.grid-container {
+/* .grid-container {
   justify-content: center;
   align-items: center;
   height: 96vh;
@@ -32,5 +56,5 @@
   grid-template-columns: 1fr 2fr 1fr;
   background-color: rgb(209, 104, 174);
   padding: 10px;
-}
+} */
 /*  */
